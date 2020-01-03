@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/anhmmo/travel-website/issues"
   },
-  "homepage": "https://github.com/anhmmo/travel-website#readme"
+  "homepage": "https://github.com/anhmmo/travel-website#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
 }
