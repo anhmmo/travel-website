@@ -62,7 +62,7 @@ body{
     margin-bottom: 6rem;
 }
 
-.heading-primary__main{
+.heading-primary--main{
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -72,7 +72,7 @@ body{
     animation-timing-function: ease-in;
 }
 
-.heading-primary__sub{
+.heading-primary--sub{
     display: block;
     font-size: 2rem;
     font-weight: 700;
