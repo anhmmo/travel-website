@@ -21,6 +21,7 @@
         -webkit-clip-path: circle(50% at 50% 50%);
         transform: translateX(-3rem) skewX(10deg);
         position: relative;
+        outline: none;
        
     }
 
@@ -52,11 +53,13 @@
     &:hover &__caption {
         transform: translate(-50%,-50%);
         opacity: 1;
+        outline: none;
     }
 
     &:hover &__img {
        transform: translateX(-4rem) scale(1);
        filter: blur(3px) brightness(80%);
+       outline: none;
     }
 }
 

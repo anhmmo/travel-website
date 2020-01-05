@@ -107,7 +107,7 @@ body {
   margin-top: 10rem !important; }
 
 .skew-this-row-only {
-  transform: skewX(12deg) !important; }
+  transform: skewX(12deg); }
 
 .section-about {
   background-color: #f7f7f7;
@@ -126,7 +126,7 @@ body {
 
 .section-tours {
   background-color: #f7f7f7;
-  padding: 25rem 0 2rem 0;
+  padding: 25rem 0 8rem 0;
   margin-top: -10rem; }
 
 .section-stories {
@@ -379,7 +379,8 @@ body {
     clip-path: circle(50% at 50% 50%);
     -webkit-clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(10deg);
-    position: relative; }
+    position: relative;
+    outline: none; }
   .story__img {
     height: 100%;
     transform: translateX(-4rem) scale(1.4);
@@ -401,10 +402,12 @@ body {
     backface-visibility: hidden; }
   .story:hover .story__caption {
     transform: translate(-50%, -50%);
-    opacity: 1; }
+    opacity: 1;
+    outline: none; }
   .story:hover .story__img {
     transform: translateX(-4rem) scale(1);
-    filter: blur(3px) brightness(80%); }
+    filter: blur(3px) brightness(80%);
+    outline: none; }
 
 .bg-video {
   position: absolute;
